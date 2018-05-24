@@ -31,6 +31,7 @@ import { ReactDadata } from 'react-dadata';
 | autoload  | Нет  | boolean  | Если `true`, то запрос на получение подсказок будет инициирован в фоне сразу, после монтирования компонента  |
 | onChange  | Нет  | function(suggestion: ReactDadata.DadataSuggestion)  | Функция, вызываемая при выборе подсказки  |
 | autocomplete  | Нет  |string  | параметр описывающий автозаполнение поля, например street-address, если не задан, будет установлен как off  |
+| validate  | Нет  |function  | функция для внешней валидации (например, наличия ввода пользователя)  |
 
 ### Лицензия
 

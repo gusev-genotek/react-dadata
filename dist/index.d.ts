@@ -104,7 +104,6 @@ export declare namespace ReactDadata {
         suggestions: Array<DadataSuggestion>;
         suggestionIndex: number;
         suggestionsVisible: boolean;
-        isValid: boolean;
     }
 }
 export declare class ReactDadata extends React.PureComponent<ReactDadata.Props, ReactDadata.State> {

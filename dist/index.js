@@ -130,7 +130,6 @@ var ReactDadata = (function (_super) {
             suggestions: [],
             suggestionIndex: -1,
             suggestionsVisible: true,
-            isValid: false
         };
         return _this;
     }

@@ -108,7 +108,6 @@ export namespace ReactDadata {
     suggestions: Array<DadataSuggestion>
     suggestionIndex: number
     suggestionsVisible: boolean
-    isValid:boolean
   }
 }
 
@@ -134,7 +133,6 @@ export class ReactDadata extends React.PureComponent<ReactDadata.Props, ReactDad
       suggestions: [],
       suggestionIndex: -1,
       suggestionsVisible: true,
-      isValid: false
     }
   }
 

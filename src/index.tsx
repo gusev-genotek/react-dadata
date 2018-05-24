@@ -2,12 +2,6 @@ import * as React from 'react';
 import * as Highlighter from 'react-highlight-words';
 import './react-dadata.css';
 
-// declare module 'react' {
-//      interface DetailedHTMLProps<T> {
-//         validate?: (value: string) => void
-//     }
-// }
-
 declare module 'react' {
      interface InputHTMLAttributes<T> {
         validate?: (value: string) => void
